@@ -10,5 +10,5 @@ def main(A,B):
     a = []
     for i in range(B):
         a.append(i)
-    return a[A:]
+    return a[A:B]
 print(main(3,7)) 
