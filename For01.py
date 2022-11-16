@@ -7,8 +7,8 @@ def main(n):
         nlist: return  answer
     """
     
-    sum = []
+    a = []
     for i in range(n):
-        sum.append(i)
-    return sum 
+        a.append(i)
+    return a 
 print(main(9))
