@@ -6,7 +6,7 @@ def main(n):
     Return numbers from zero to n in a list view.
     Args:
         n: int
-    Returns:
-        list: return  answer
+    Returs:
+        nlist: return  answer
     """
-    return n[0:n]
+    return n.index(0,n)
