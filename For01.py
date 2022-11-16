@@ -6,6 +6,9 @@ def main(n):
     Returs:
         nlist: return  answer
     """
-    for i in [n]:
-        return i
-print(main(348019))
+    
+    sum = []
+    for i in range(n):
+        sum.append(i)
+    return sum 
+print(main(9))
