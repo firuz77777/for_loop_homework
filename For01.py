@@ -1,6 +1,3 @@
-import py_compile
-
-
 def main(n):
     """
     Return numbers from zero to n in a list view.
@@ -9,4 +6,6 @@ def main(n):
     Returs:
         nlist: return  answer
     """
-    return n.index(0,n)
+    for i in [n]:
+        return i
+print(main(348019))
